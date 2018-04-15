@@ -1,0 +1,8 @@
+# Ignore thư mục node_modules nếu project có sử dụng nodejs
+node_modules/
+# Ignore thư mục vendor khi đang dev composer package để không phải đưa cac package vào git, chỉ nên chú ý composer.lock,
+# nếu muốn lock phiên bản cho requirement nào thì fix version cho requirement đó
+vendor/
+# Thương các ide sẽ có thư mục
+/.idea
+.DS_Store

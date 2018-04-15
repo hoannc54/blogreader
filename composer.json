@@ -1,0 +1,23 @@
+{
+    "name": "123dok/blog-reader-hoannc",
+    "description": "Convert some type of document file",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Vu Thai Hoc",
+            "email": "vuthaihoc.ttud@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dok123\\BlogReader\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0",
+        "diablomedia/phpunit-pretty-printer": "^2.0"
+    }
+}
